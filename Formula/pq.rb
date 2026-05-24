@@ -1,24 +1,24 @@
 class Pq < Formula
   desc "jq for Parquet — query parquet files with concise expression syntax"
   homepage "https://github.com/thehwang/parq"
-  version "0.9.0"
+  version "0.9.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/thehwang/parq/releases/download/v0.9.0/pq-aarch64-apple-darwin.tar.gz"
-      sha256 "a1d6188a1fa69a703628212b0295cd2bb4c4cde28dbf19e4e0b9b2272516c3be"
+      url "https://github.com/thehwang/parq/releases/download/v0.9.1/pq-aarch64-apple-darwin.tar.gz"
+      sha256 "c8ceacce2dde1f5759b905d0e1e5e6653fa72a40c4cabe84736abbcd2b176619"
     end
     on_intel do
-      url "https://github.com/thehwang/parq/releases/download/v0.9.0/pq-x86_64-apple-darwin.tar.gz"
-      sha256 "543ea4b4cc239a4fc7cb40889928cf310e0bfae74a2c337881b957cb3c830d44"
+      url "https://github.com/thehwang/parq/releases/download/v0.9.1/pq-x86_64-apple-darwin.tar.gz"
+      sha256 "d560d2a558b59f423d2d71f5b3164679b37852b194d7203975f04e110b42c203"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/thehwang/parq/releases/download/v0.9.0/pq-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e353a67504f5f09a09fd1502800fe8b4bb6db389f7bf5d358633b324cc987151"
+      url "https://github.com/thehwang/parq/releases/download/v0.9.1/pq-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "41dd886f8e4c1271b157cd683b2559568e39998a3e660ec01fdbc7e3fbe31520"
     end
   end
 
